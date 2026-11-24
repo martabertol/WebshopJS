@@ -1,0 +1,20 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; background: #eef3f6; color: #183b4e; }
+header { background: #183b4e; color: white; padding: 20px; text-align: center; }
+header h1, header p { margin: 6px; }
+main { max-width: 850px; margin: 20px auto; padding: 0 12px; }
+section { background: white; padding: 20px; margin-bottom: 16px; border: 1px solid #ccd8df; border-radius: 6px; overflow-x: auto; }
+h2 { margin-top: 0; }
+table { width: 100%; border-collapse: collapse; margin-bottom: 12px; }
+th, td { text-align: left; padding: 10px; border-bottom: 1px solid #ddd; }
+th { background: #e1edf4; }
+button { background: #0f4c5c; color: white; border: 0; padding: 9px 14px; border-radius: 4px; cursor: pointer; margin: 3px 0; }
+button:hover { background: #367c91; }
+input[type=number] { width: 65px; }
+input[type=text], select { display: block; width: 100%; max-width: 350px; padding: 8px; margin: 5px 0 12px; }
+fieldset { margin: 12px 0; border: 1px solid #ccd8df; }
+fieldset label { display: block; padding: 5px; }
+#total { font-weight: bold; }
+.crvena { color: #a51d2d; font-weight: bold; }
+.zelena { color: #176b37; font-weight: bold; }
+#rezultat { white-space: pre-line; }
